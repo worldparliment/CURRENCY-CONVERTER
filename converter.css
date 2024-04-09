@@ -1,0 +1,71 @@
+#mainbox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+}
+
+#main1{
+    width: 50%;
+    height: 30%;
+    border: 2px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#from{
+    width: 40%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 14px;
+    flex-direction: column;
+}
+
+#to{
+    width: 40%;
+    height: 100%;
+    text-align: center; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 14px;
+    flex-direction: column;
+}
+
+
+
+
+#to h3 , #from h3{
+    padding: 0px;
+    margin: 0px;
+}
+
+#exchange{
+    width: 100px;
+    height: 40px;
+    border: 1px solid black;
+    background-color: orchid;
+    cursor: pointer;
+}
+
+#exchange:hover{
+    background-color: rgb(184, 98, 181);
+}
+
+#prce{
+    width: 56%;
+    height: 18%;
+    border: 1px solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+svg{
+    width: 39px;
+}
